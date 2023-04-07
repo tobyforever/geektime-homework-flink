@@ -31,7 +31,7 @@ import java.util.List;
  * https://xyueji.gitee.io/Flink%E5%AD%A6%E4%B9%A0--%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E5%AE%9E%E6%97%B6%E7%83%AD%E9%97%A8%E5%95%86%E5%93%81.html
  *
  */
-public class TopNInSlidingTimeWindow {
+public class TopProduct {
 
     public static void main(String[] args) throws Exception {
 //        EnvironmentSettings environmentSettings= EnvironmentSettings.newInstance()
