@@ -258,6 +258,12 @@
             <artifactId>flink-connector-hive_2.12</artifactId>
             <version>1.15.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-connector-kafka</artifactId>
+            <version>1.15.2</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.apache.hive</groupId>
@@ -321,6 +327,11 @@
             <version>1.15.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>3.5.0</version>
+        </dependency>
 
     </dependencies>
     <build>

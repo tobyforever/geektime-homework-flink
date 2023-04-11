@@ -1,0 +1,27 @@
+package com.geektime.realtimedw;
+
+import org.apache.flink.api.common.eventtime.Watermark;
+import org.apache.flink.api.common.serialization.SimpleStringSchema;
+import org.apache.flink.streaming.api.functions.sink.SinkFunction;
+
+import java.util.Properties;
+
+public class FlinkKafkaProducer011<T> implements SinkFunction<String> {
+    public FlinkKafkaProducer011(String etltopic, SimpleStringSchema simpleStringSchema, Properties sinkProperties) {
+    }
+
+    @Override
+    public void invoke(String value, Context context) throws Exception {
+        SinkFunction.super.invoke(value, context);
+    }
+
+    @Override
+    public void writeWatermark(Watermark watermark) throws Exception {
+        SinkFunction.super.writeWatermark(watermark);
+    }
+
+    @Override
+    public void finish() throws Exception {
+        SinkFunction.super.finish();
+    }
+}
